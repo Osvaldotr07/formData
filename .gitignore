@@ -153,7 +153,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
-
+*.lock.json
 # TypeScript v1 declaration files
 typings/
 
@@ -190,7 +190,6 @@ typings/
 
 # rollup.js default build output
 dist/
-
 #image folder
 images/
 # Uncomment the public line if your project uses Gatsby
