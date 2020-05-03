@@ -1,0 +1,92 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+}
+
+form {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 30%;
+    border:1px solid #f2f2f2;
+    box-shadow: 2px 2px 10px rgba(0,0,0,.3);
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arial;
+    color: #545454;
+}
+
+input{
+    padding: 8px;
+    font-size: 1em;
+    width: 90%;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #f3f3f3;
+    margin:20px;
+    outline: 0;
+    position: relative;
+  
+}
+input.is-active{
+    position: relative;
+    z-index: 3;
+}
+
+button {
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #38b765;
+    color: white;
+    font-size: 20px;
+    padding: 8px 16px;
+    z-index: 3;
+    position: relative;
+}
+
+.preview {
+    background-color: rgba(0,0,0,.7);
+    position: fixed;
+    top:0;
+    z-index: 5;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none; 
+
+}
+.preview.is-active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.close-button {
+    color: white;
+    background-color: tomato;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-image {
+    height: 500px;
+    height: 500px;
+    border-radius: 5px;
+}
